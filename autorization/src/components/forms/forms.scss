@@ -1,0 +1,55 @@
+$text-primary: #c34b02;
+$btn-primary-bg: $text-primary;
+
+.sing-form{
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-59%) translateY(-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    max-width: 250px;
+    .form-title{
+        margin: 0 15px 15px;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $text-primary;
+    }
+    .form-control{
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 5px 15px;
+        box-sizing: border-box;
+        margin: 15px 0;
+    }
+    .btn{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        &.btn-primary{
+            color: #fff;
+            background: $btn-primary-bg;
+        }
+    }
+    .info-text{
+        text-align: center;
+        padding: 15px 30px 0;
+        font-size: 14px;
+        color: #544545;
+        .link{
+            color: $text-primary;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
